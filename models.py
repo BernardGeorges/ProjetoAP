@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from torch.nn import Linear
 
 import torch
-n_features = 15
+n_features = 9
 
 class GCNModel(torch.nn.Module):
     def __init__(self):
@@ -16,14 +16,15 @@ class GCNModel(torch.nn.Module):
         self.pooling = global_mean_pool
         self.linear = Linear(32, 1)
 
-    # PERGUNTAR COMO CALCULAR OS GRADIENTES DOS NODOS E DAS LIGACOES <----- 
+    # Peguntar como guardar a computacao de gradientes para x e edge_attr?
+    # Activation Hook para capturar os gradientes em backpropagation?
 
     def forward(self, x, edge_index, edge_attr, batch):
 
         h1 = F.relu(self.conv1(x, edge_index, edge_attr))
-        h2 =  F.relu(self.conv2(x, edge_index, edge_attr))
+        h2 =  F.relu(self.conv2(h1, edge_index, edge_attr))
 
-        h3 = self.conv3(x, edge_index, edge_attr)        
+        h3 = self.conv3(h2, edge_index, edge_attr)        
         h4 = self.pooling(h3,batch=batch)
         x = self.linear(h4)
 
