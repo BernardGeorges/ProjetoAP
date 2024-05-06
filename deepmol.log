@@ -1,0 +1,8 @@
+2024-05-06 22:48:59,237 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
+2024-05-06 22:48:59,243 — INFO — Mols_shape: (1000,)
+2024-05-06 22:48:59,246 — INFO — Features_shape: (1000, 11)
+2024-05-06 22:48:59,249 — INFO — Labels_shape: (1000,)
+2024-05-06 23:20:55,522 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
+2024-05-06 23:20:55,535 — INFO — Mols_shape: (1000,)
+2024-05-06 23:20:55,537 — INFO — Features_shape: (1000, 11)
+2024-05-06 23:20:55,538 — INFO — Labels_shape: (1000,)
