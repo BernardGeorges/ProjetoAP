@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>CHEMICAL DETECTION INTERPRETATION</h2>
+        <h4>SMILES NOTATION</h4>
+        <h5 id="smilesnotation"></h5>
+        <p>
+            <button onclick="nextsmiles()">NEXT</button>
+        </p>
+        <p>
+            <img id="featureimp_img" src="">
+        </p>
+        <script>
+            async function nextsmiles(){
+                const response = await fetch("http://127.0.0.1:5000");
+                const ok = await response.json();
+                var name =  "feature_importance\\"+ok.file+".png"
+                document.getElementById("featureimp_img").src = name; 
+                document.getElementById("smilesnotation").innerHTML = ok.name; 
+            }
+        </script>
+    </body>
+</html>
