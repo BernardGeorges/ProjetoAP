@@ -1,0 +1,54 @@
+2024-05-18 16:47:36,548 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
+2024-05-18 16:47:36,835 — INFO — Mols_shape: (6774,)
+2024-05-18 16:47:36,837 — INFO — Features_shape: (6774, 11)
+2024-05-18 16:47:36,838 — INFO — Labels_shape: (6774,)
+2024-05-18 16:48:17,963 — INFO — Pattern does not match molecule! Active bits: [ 39  40  48  49  51  55  58  59  60  61  64  67  73  81  88 102 106 112
+ 124 130 136 140 144 146 148 150 154 159 162 163 164 165]
+2024-05-18 16:48:17,984 — INFO — Bits ON: [140, 271, 350, 392, 441, 650, 694, 715, 762, 803, 827, 961, 992, 1004, 1063, 1088, 1199, 1309, 1380, 1476, 1750, 1873]
+2024-05-18 16:49:12,020 — ERROR — Failed to featurize [Hg+2]. Appending empty array
+2024-05-18 16:49:12,025 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 16:49:14,790 — ERROR — Failed to featurize [SnH2+2]. Appending empty array
+2024-05-18 16:49:14,799 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 16:49:14,960 — ERROR — Failed to featurize [SbH6+3]. Appending empty array
+2024-05-18 16:49:14,966 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 16:49:27,940 — ERROR — Failed to featurize [Hg+2]. Appending empty array
+2024-05-18 16:49:27,952 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 16:49:30,684 — ERROR — Failed to featurize [SnH2+2]. Appending empty array
+2024-05-18 16:49:30,700 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 16:49:30,852 — ERROR — Failed to featurize [SbH6+3]. Appending empty array
+2024-05-18 16:49:30,872 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 16:53:38,805 — ERROR — Failed to featurize [Hg+2]. Appending empty array
+2024-05-18 16:53:38,825 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 16:53:41,522 — ERROR — Failed to featurize [SnH2+2]. Appending empty array
+2024-05-18 16:53:41,528 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 16:53:41,698 — ERROR — Failed to featurize [SbH6+3]. Appending empty array
+2024-05-18 16:53:41,714 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 16:53:55,150 — INFO — Mols_shape: (690,)
+2024-05-18 16:53:55,151 — INFO — Features_shape: (690, 11)
+2024-05-18 16:53:55,152 — INFO — Labels_shape: (690,)
+2024-05-18 17:29:34,824 — ERROR — Failed to featurize [Cu+2]. Appending empty array
+2024-05-18 17:29:34,848 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 17:29:34,880 — ERROR — Failed to featurize [Zn+2]. Appending empty array
+2024-05-18 17:29:34,908 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 17:29:38,832 — ERROR — Failed to featurize [Hg+2]. Appending empty array
+2024-05-18 17:29:38,868 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 17:29:42,815 — ERROR — Failed to featurize [Ni+2]. Appending empty array
+2024-05-18 17:29:42,819 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 17:29:43,109 — ERROR — Failed to featurize [SnH2+2]. Appending empty array
+2024-05-18 17:29:43,120 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 17:29:47,005 — ERROR — Failed to featurize [Ba+2]. Appending empty array
+2024-05-18 17:29:47,018 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 17:29:48,048 — ERROR — Failed to featurize [SbH6+3]. Appending empty array
+2024-05-18 17:29:48,079 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 17:29:48,346 — ERROR — Failed to featurize [Fe+3]. Appending empty array
+2024-05-18 17:29:48,372 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 17:29:52,055 — ERROR — Failed to featurize [Fe+2]. Appending empty array
+2024-05-18 17:29:52,078 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 17:29:54,141 — ERROR — Failed to featurize [Mn+2]. Appending empty array
+2024-05-18 17:29:54,144 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 17:29:59,528 — ERROR — Failed to featurize [Be+2]. Appending empty array
+2024-05-18 17:29:59,546 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 17:30:03,412 — ERROR — Failed to featurize [Cr+3]. Appending empty array
+2024-05-18 17:30:03,424 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
+2024-05-18 17:30:04,515 — ERROR — Failed to featurize [Co+2]. Appending empty array
+2024-05-18 17:30:04,531 — ERROR — Exception message: 'numpy.ndarray' object has no attribute 'node_features'
