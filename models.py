@@ -25,7 +25,7 @@ class GCNModel(torch.nn.Module):
     
     def forward(self, x, edge_index, edge_attr, batch):
 
-        self.input = x   
+        self.input = x 
 
         x = self.conv1(x, edge_index,edge_attr)
         x = F.relu(x)
