@@ -1,122 +1,48 @@
-2024-05-19 18:34:50,675 — INFO — Bit 1063 with 1 hits!
-2024-05-19 19:23:24,586 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-19 19:23:24,588 — INFO — Mols_shape: (6774,)
-2024-05-19 19:23:24,589 — INFO — Features_shape: (6774, 11)
-2024-05-19 19:23:24,589 — INFO — Labels_shape: (6774,)
-2024-05-19 19:26:22,910 — INFO — Pattern does not match molecule! Active bits: [ 86 109 125 126 138 145 153 155 157 162 163 164 165]
-2024-05-19 19:26:23,450 — INFO — Bits ON: [80, 389, 488, 695, 745, 1066, 1088, 1172, 1199, 1380, 1750, 1754, 1873, 1992, 2042]
-2024-05-19 19:26:31,190 — INFO — Bit 1066 with 4 hits!
-2024-05-19 19:27:00,720 — INFO — Bit 86 is off!
-2024-05-19 19:27:00,721 — INFO — Bit 109 is off!
-2024-05-19 19:27:00,721 — INFO — Bit 125 is off!
-2024-05-19 19:27:00,723 — INFO — Bit 126 is off!
-2024-05-19 19:27:00,723 — INFO — Bit 138 is off!
-2024-05-19 19:27:00,724 — INFO — Bit 145 is off!
-2024-05-19 19:27:00,725 — INFO — Bit 153 is off!
-2024-05-19 19:27:00,725 — INFO — Bit 155 is off!
-2024-05-19 19:27:00,726 — INFO — Bit 157 is off!
-2024-05-19 19:27:00,727 — INFO — Bit 162 is off!
-2024-05-19 19:27:00,727 — INFO — Bit 163 is off!
-2024-05-19 19:27:00,728 — INFO — Bit 164 is off!
-2024-05-19 19:27:00,728 — INFO — Bit 165 is off!
-2024-05-19 19:27:09,113 — INFO — Bit 86 is off!
-2024-05-19 19:27:09,114 — INFO — Bit 109 is off!
-2024-05-19 19:27:09,115 — INFO — Bit 125 is off!
-2024-05-19 19:27:09,115 — INFO — Bit 126 is off!
-2024-05-19 19:27:09,117 — INFO — Bit 138 is off!
-2024-05-19 19:27:09,118 — INFO — Bit 145 is off!
-2024-05-19 19:27:09,118 — INFO — Bit 153 is off!
-2024-05-19 19:27:09,119 — INFO — Bit 155 is off!
-2024-05-19 19:27:09,119 — INFO — Bit 157 is off!
-2024-05-19 19:27:09,120 — INFO — Bit 162 is off!
-2024-05-19 19:27:09,121 — INFO — Bit 163 is off!
-2024-05-19 19:27:09,121 — INFO — Bit 164 is off!
-2024-05-19 19:27:09,122 — INFO — Bit 165 is off!
-2024-05-19 19:27:33,980 — INFO — Pattern does not match molecule! Active bits: [ 86 109 125 126 138 145 153 155 157 162 163 164 165]
-2024-05-19 19:27:47,919 — INFO — Pattern does not match molecule! Active bits: [ 86 109 125 126 138 145 153 155 157 162 163 164 165]
-2024-05-19 19:27:59,916 — INFO — Bits ON: [80, 389, 488, 695, 745, 1066, 1088, 1172, 1199, 1380, 1750, 1754, 1873, 1992, 2042]
-2024-05-19 19:28:16,135 — INFO — Bit 1066 with 4 hits!
-2024-05-18 00:04:01,316 — INFO — Pattern does not match molecule! Active bits: [ 32  33  36  47  51  52  55  58  59  60  61  64  65  67  69  73  74  77
-  79  80  81  83  88  91  93  94  96  97 102 106 111 112 113 115 117 120
- 121 124 125 126 127 130 133 135 136 137 141 142 143 146 148 149 151 152
- 155 156 157 158 159 160 161 162 163 164 165]
-2024-05-18 00:04:01,345 — INFO — Bit 80 with 1 hits!
-2024-05-18 00:04:01,390 — INFO — Bit 389 is off!
-2024-05-18 00:04:01,393 — INFO — Bit 807 is off!
-2024-05-18 00:04:01,396 — INFO — Bit 930 is off!
-2024-05-18 00:04:01,398 — INFO — Bit 1138 is off!
-2024-05-18 00:04:01,400 — INFO — Bit 1141 is off!
-2024-05-18 00:04:01,401 — INFO — Bit 1290 is off!
-2024-05-18 00:04:01,403 — INFO — Bit 1531 is off!
-2024-05-18 00:04:01,404 — INFO — Bit 1737 is off!
-2024-05-18 00:04:01,405 — INFO — Bit 1844 is off!
-2024-05-18 00:04:01,406 — INFO — Bit 1876 is off!
-2024-05-18 00:04:01,407 — INFO — Bit 1917 is off!
-2024-05-18 00:04:01,411 — INFO — Using only bits ON: [1, 80, 650]
-2024-05-18 00:04:01,543 — INFO — Bit 1 with 1 hits!
-2024-05-18 00:04:01,573 — INFO — Bit 389 is off!
-2024-05-18 00:04:01,575 — INFO — Bit 807 is off!
-2024-05-18 00:04:01,577 — INFO — Bit 930 is off!
-2024-05-18 00:04:01,579 — INFO — Bit 1138 is off!
-2024-05-18 00:04:01,581 — INFO — Bit 1141 is off!
-2024-05-18 00:04:01,582 — INFO — Bit 1290 is off!
-2024-05-18 00:04:01,583 — INFO — Bit 1531 is off!
-2024-05-18 00:04:01,585 — INFO — Bit 1737 is off!
-2024-05-18 00:04:01,587 — INFO — Bit 1844 is off!
-2024-05-18 00:04:01,589 — INFO — Bit 1876 is off!
-2024-05-18 00:04:01,590 — INFO — Bit 1917 is off!
-2024-05-18 00:04:01,592 — INFO — Using only bits ON: [1, 80, 650]
-2024-05-18 12:40:10,766 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 12:42:41,542 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 12:42:41,545 — INFO — Mols_shape: (6774,)
-2024-05-18 12:42:41,547 — INFO — Features_shape: (6774, 11)
-2024-05-18 12:42:41,554 — INFO — Labels_shape: (6774,)
-2024-05-18 12:53:38,934 — INFO — Pattern does not match molecule! Active bits: [ 57  72  83  85  92  93  96 103 107 110 113 117 122 123 125 126 127 133
- 134 135 136 137 140 143 146 148 152 154 156 157 158 159 160 161 162 163
- 164 165]
-2024-05-18 12:53:38,959 — INFO — Bits ON: [1, 54, 145, 322, 449, 460, 474, 621, 650, 656, 695, 718, 759, 787, 807, 866, 881, 914, 960, 1043, 1057, 1066, 1088, 1096, 1163, 1233, 1380, 1446, 1603, 1683, 1706, 1729, 1750, 1754, 1873, 1891, 1917, 1926]
-2024-05-18 13:47:47,083 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 13:47:47,711 — INFO — Pattern does not match molecule! Active bits: [ 53  82  89  90 109 113 127 131 139 143 144 150 152 153 155 157 159 162
- 163 164 165]
-2024-05-18 13:48:00,627 — INFO — Pattern does not match molecule! Active bits: [ 53  82  89  90 109 113 127 131 139 143 144 150 152 153 155 157 159 162
- 163 164 165]
-2024-05-18 13:48:22,064 — INFO — Pattern does not match molecule! Active bits: [ 41  97 104 111 123 132 139 154 155 157 159 161 164]
-2024-05-18 13:49:24,908 — INFO — Bits ON: [1, 54, 145, 322, 449, 460, 474, 621, 650, 656, 695, 718, 759, 787, 807, 866, 881, 914, 960, 1043, 1057, 1066, 1088, 1096, 1163, 1233, 1380, 1446, 1603, 1683, 1706, 1729, 1750, 1754, 1873, 1891, 1917, 1926]
-2024-05-18 13:56:40,154 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 13:56:40,155 — INFO — Mols_shape: (6774,)
-2024-05-18 13:56:40,156 — INFO — Features_shape: (6774, 11)
-2024-05-18 13:56:40,157 — INFO — Labels_shape: (6774,)
-2024-05-18 14:10:13,864 — INFO — Bit 80 with 3 hits!
-2024-05-18 14:10:13,938 — INFO — Bit 1 is off!
-2024-05-18 14:10:13,941 — INFO — Bit 389 is off!
-2024-05-18 14:10:13,944 — INFO — Bit 650 is off!
-2024-05-18 14:10:13,946 — INFO — Bit 930 is off!
-2024-05-18 14:10:13,948 — INFO — Bit 1138 is off!
-2024-05-18 14:10:13,955 — INFO — Bit 1141 is off!
-2024-05-18 14:10:13,958 — INFO — Bit 1290 is off!
-2024-05-18 14:10:13,961 — INFO — Bit 1531 is off!
-2024-05-18 14:10:13,965 — INFO — Bit 1737 is off!
-2024-05-18 14:10:13,968 — INFO — Bit 1844 is off!
-2024-05-18 14:10:13,972 — INFO — Bit 1876 is off!
-2024-05-18 14:10:13,974 — INFO — Bit 1917 is off!
-2024-05-18 14:10:13,977 — INFO — Using only bits ON: [80, 807]
-2024-05-18 14:10:14,127 — INFO — Pattern does not match molecule! Active bits: [ 82  90 104 109 118 128 129 132 139 147 153 155 157 163 164 165]
-2024-05-18 14:10:14,147 — INFO — Bits ON: [2, 29, 80, 114, 222, 473, 484, 712, 807, 832, 890, 926, 992, 1019, 1028, 1130, 1325, 1911]
-2024-05-18 14:11:19,261 — INFO — Pattern does not match molecule! Active bits: [ 82  90 104 109 118 128 129 132 139 147 153 155 157 163 164 165]
-2024-05-18 14:11:48,914 — INFO — Bits ON: [2, 29, 80, 114, 222, 473, 484, 712, 807, 832, 890, 926, 992, 1019, 1028, 1130, 1325, 1911]
-2024-05-18 14:11:57,614 — INFO — Bits ON: dict_keys([2, 29, 80, 114, 222, 473, 484, 712, 807, 832, 890, 926, 992, 1019, 1028, 1130, 1325, 1911])
-2024-05-18 14:12:12,838 — INFO — Bits ON: [2, 29, 80, 114, 222, 473, 484, 712, 807, 832, 890, 926, 992, 1019, 1028, 1130, 1325, 1911]
-2024-05-18 14:35:50,306 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 14:37:13,310 — INFO — Pattern does not match molecule! Active bits: [ 57  74  85  86  93  97  98 101 105 113 122 123 125 127 133 135 137 141
- 143 145 148 149 152 154 156 158 159 160 161 162 163 164 165]
-2024-05-18 14:45:19,581 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 14:56:20,023 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 15:06:36,468 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 15:08:37,193 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 15:16:33,830 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 15:18:22,661 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 15:18:55,074 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 15:19:58,567 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 15:21:04,647 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 15:32:13,532 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
-2024-05-18 15:32:37,070 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
+2024-05-31 13:16:49,841 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
+2024-05-31 13:16:49,848 — INFO — Mols_shape: (6774,)
+2024-05-31 13:16:49,850 — INFO — Features_shape: (6774, 11)
+2024-05-31 13:16:49,851 — INFO — Labels_shape: (6774,)
+2024-05-31 13:17:52,794 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
+2024-05-31 13:17:52,948 — INFO — Mols_shape: (6774,)
+2024-05-31 13:17:52,950 — INFO — Features_shape: (6774, 11)
+2024-05-31 13:17:52,952 — INFO — Labels_shape: (6774,)
+2024-05-31 13:18:10,113 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
+2024-05-31 13:18:10,178 — INFO — Mols_shape: (6774,)
+2024-05-31 13:18:10,179 — INFO — Features_shape: (6774, 11)
+2024-05-31 13:18:10,180 — INFO — Labels_shape: (6774,)
+2024-05-31 13:18:57,889 — INFO — Bits ON: [80, 201, 318, 378, 383, 389, 441, 486, 497, 650, 684, 694, 695, 725, 807, 864, 924, 961, 1088, 1152, 1187, 1199, 1208, 1380, 1385, 1410, 1440, 1452, 1518, 1603, 1665, 1737, 1750, 1866, 1867, 1873, 1890, 1917, 1970, 1992, 2004]
+2024-05-31 13:35:30,189 — INFO — Bit 80 with 1 hits!
+2024-05-31 13:36:30,646 — INFO — Bit 1 is off!
+2024-05-31 13:36:30,649 — INFO — Bit 930 is off!
+2024-05-31 13:36:30,651 — INFO — Bit 1138 is off!
+2024-05-31 13:36:30,654 — INFO — Bit 1141 is off!
+2024-05-31 13:36:30,656 — INFO — Bit 1290 is off!
+2024-05-31 13:36:30,658 — INFO — Bit 1531 is off!
+2024-05-31 13:36:30,660 — INFO — Bit 1844 is off!
+2024-05-31 13:36:30,661 — INFO — Bit 1876 is off!
+2024-05-31 13:36:30,663 — INFO — Using only bits ON: [80, 389, 650, 807, 1737, 1917]
+2024-05-31 13:36:40,061 — INFO — Bit 1 is off!
+2024-05-31 13:36:40,064 — INFO — Bit 930 is off!
+2024-05-31 13:36:40,066 — INFO — Bit 1138 is off!
+2024-05-31 13:36:40,067 — INFO — Bit 1141 is off!
+2024-05-31 13:36:40,069 — INFO — Bit 1290 is off!
+2024-05-31 13:36:40,070 — INFO — Bit 1531 is off!
+2024-05-31 13:36:40,072 — INFO — Bit 1844 is off!
+2024-05-31 13:36:40,074 — INFO — Bit 1876 is off!
+2024-05-31 13:36:40,075 — INFO — Using only bits ON: [80, 389, 650, 807, 1737, 1917]
+2024-05-31 13:36:41,231 — INFO — Bit 1 is off!
+2024-05-31 13:36:41,234 — INFO — Bit 930 is off!
+2024-05-31 13:36:41,236 — INFO — Bit 1138 is off!
+2024-05-31 13:36:41,239 — INFO — Bit 1141 is off!
+2024-05-31 13:36:41,241 — INFO — Bit 1290 is off!
+2024-05-31 13:36:41,243 — INFO — Bit 1531 is off!
+2024-05-31 13:36:41,274 — INFO — Bit 1844 is off!
+2024-05-31 13:36:41,276 — INFO — Bit 1876 is off!
+2024-05-31 13:36:41,278 — INFO — Using only bits ON: [80, 389, 650, 807, 1737, 1917]
+2024-05-31 13:37:07,878 — INFO — Bit 80 with 1 hits!
+2024-05-31 13:41:25,823 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
+2024-05-31 13:41:25,826 — INFO — Mols_shape: (6774,)
+2024-05-31 13:41:25,828 — INFO — Features_shape: (6774, 11)
+2024-05-31 13:41:25,829 — INFO — Labels_shape: (6774,)
+2024-05-31 13:42:18,772 — INFO — Pattern does not match molecule! Active bits: [ 49  62 113 125 127 143 144 145 150 152 157 162 163 164 165]
+2024-05-31 13:52:54,590 — INFO — Assuming classification since there are less than 10 unique y values. If otherwise, explicitly set the mode to 'regression'!
