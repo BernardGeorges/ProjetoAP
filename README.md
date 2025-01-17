@@ -1,3 +1,3 @@
 # ProjetoAP
  
-see documentation [here](AP_Grupo7)
+see documentation [here](AP_GRUPO7.pdf)
